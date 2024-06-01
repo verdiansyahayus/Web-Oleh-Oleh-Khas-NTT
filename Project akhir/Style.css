@@ -1,0 +1,718 @@
+.landingpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh; /* 100% of the viewport height */
+}
+
+.landingpage .labuan-img {
+    object-fit: cover;
+    width: 50%;
+    height: 100%;
+}
+
+.right .pola2-img {
+    width: 100%;
+    margin-bottom: 20px; /* Add space below the image */
+}
+
+.right {
+    text-align: center;
+    height: 97vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    width:50%;
+}
+
+
+.right p {
+    font-size: 45px;
+    color: #803D3B;
+    margin-bottom: 100px; /* Add some space below the paragraph */
+}
+
+.right a {
+    display: inline-block; /* Change display to inline-block */
+    font-size: 24px;
+    padding: 10px 20px; /* Add padding for better clickability */
+    margin-bottom: 50px; /* Add some space between anchor tags */
+    text-decoration: none; /* Remove default underline */
+    color: #333; /* Change link color */
+    background-color: #FFEBDA; /* Add background color */
+}
+
+
+.right a:hover {
+    color: #555; /* Change link color on hover */
+}
+
+
+.container {
+    width: 93%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #803D3B; /* Warna coklat */
+    color: #FFF5E1; /* Warna cream */
+    padding-top: 20px;
+    min-height: 50px;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+}
+
+.labuanbajo {
+    width: 100%;
+    height: 100px; /* Atau tinggi yang Anda inginkan */
+    overflow: hidden;
+}
+
+.labuanbajo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h2 {
+    text-align: center; /* Membuat tulisan menjadi di tengah */
+    position: relative; /* Mengatur posisi relatif */
+    font-size: 18px; /* Mengubah ukuran font */
+    color: #803D3B; /* Mengubah warna tulisan */
+  }
+  
+  h2:before,
+  h2:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    height: 1px;
+    background-color: #803D3B; /* Mengubah warna garis */
+  }
+  
+  h2:before {
+    left: 300px;
+    right: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  h2:after {
+    left: 50%;
+    right: 300px;
+    transform: translate(50%, -50%);
+  }
+  .slogan {
+    text-align: center;
+    font-size: 24px;
+    color: #803D3B;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .gambar-kiri,
+  .gambar-kanan {
+    width: 70px; /* Sesuaikan lebar gambar dengan kebutuhan */
+    height: auto;
+    margin-right: 30px; /* Sesuaikan jarak antara gambar dengan teks dengan kebutuhan */
+    margin-left: 30px; /* Sesuaikan jarak antara gambar dengan teks dengan kebutuhan */
+  }
+
+
+
+
+nav ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #FFF5E1; /* Warna cream */
+    text-decoration: none;
+}
+
+.informasi {
+    background-color: rgba(248, 199, 148, 0.9);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .informasi {
+    background-color: #FFF7EE;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .tentang {
+    width: 50%;
+    margin-right: 20px;
+    margin-left: 40px;
+  }
+  
+  .hubungi {
+    width: 50%;
+    text-align: left;
+    margin-left: 40px;
+  }
+  
+  .tentang img {
+    width: 30px;
+    height:30px;
+    float: left;
+  }
+  
+  .tentang h3,
+  .hubungi h3 {
+    margin-top: 0;
+  }
+  .tentang p{
+    text-align: justify;
+  }
+
+
+.item {
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 500px;
+    margin: 20px 10px 20px; /* Tambahkan margin atas 20px dan hilangkan margin bawah, sisanya tetap */
+    background: #FFF5E1; /* Warna cream */
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan efek bayangan */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px; /* Ubah nilai padding untuk mempertahankan jarak dari tepi */
+    margin-top: 40px; /* Tambahkan margin atas 20px */
+    margin-bottom: 200px;
+}
+
+.item img {
+    width: 200px;
+    height: 200px;
+    display: block; /* Membuat gambar menjadi blok sehingga margin otomatis berfungsi */
+    margin-left: auto; /* Memposisikan gambar ke tengah secara horizontal */
+    margin-right: auto;
+    margin-top: 20px; /* Tambahkan margin atas 10px untuk memisahkan gambar dari teks */
+}
+
+.item h3 {
+    margin: 10px 0;
+    font-size: 20px;
+    text-align: center; 
+}
+
+.item h4 {
+    margin: 10px 0;
+    font-size: 17px;
+    text-align: center; 
+}
+
+.item p {
+    margin: 0;
+    font-size: 16px;
+    text-align: justify; /* Meratakan teks kiri-kanan */
+    margin-left: 5px;
+    margin-right: 5px; /* Memberikan margin kiri 5px */
+}
+.item button {
+    margin-top: 30px; /* Jarak antara tombol dan teks */
+}
+.cart-btn {
+    position: absolute; /* Mengatur posisi absolut untuk mengontrol posisi tombol */
+    bottom: 10px; /* Jarak dari bawah */
+    left: 50%; /* Menempatkan tombol di tengah secara horizontal */
+    transform: translateX(-50%); /* Menggeser tombol ke kiri sejauh 50% dari lebarnya sendiri */
+    padding: 5px 10px;
+    background-color: #803D3B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 30px; /* Tinggi 15px */
+    width: 200px; /* Lebar 200px */
+}
+
+
+
+form[name="form_delete"] {
+    position: absolute;
+    bottom: 10px; /* Jarak dari bawah */
+    left: 0; /* Membuat form berada di sebelah kiri */
+    width: 100%; /* Menyesuaikan lebar dengan parent */
+    text-align: center; /* Membuat tombol di tengah */
+}
+
+/* Menambahkan styling untuk tombol di dalam form_delete */
+form[name="form_delete"] button {
+    padding: 5px 10px;
+    background-color: #803D3B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 30px; /* Tinggi 15px */
+    width: 200px; /* Lebar 200px */
+    margin-bottom: 20px;
+}
+form[name="invoice"] {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form[name="invoice"] button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form[name="invoice"] button:hover {
+    background-color: #45a049;
+}
+
+
+
+/* Container flex */
+.flex-container {
+    display: flex;
+    justify-content: center; /* Mengatur agar konten berada di tengah-tengah */
+    gap: 20px;
+    padding-right: 100px; /* Tambahkan padding di sebelah kanan */
+}
+.nothave {
+    text-align: center; /* Mengatur agar teks berada di tengah */
+    font-size: 18px; /* Mengatur ukuran font menjadi 18px */
+}
+ h4 {
+    text-align: center; /* Mengatur agar teks berada di tengah */
+    font-size: 24px;
+    color: #803D3B;
+
+ }
+
+/* Form Container */
+.form-container {
+    width: 45%;
+    margin-bottom: 50px;
+}
+
+/* Form Styles */
+form[name="akun"] {
+    width: 100%;
+    padding: 20px;
+    background-color: #FFF5E1; /* Warna cream */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #803D3B; /* Warna coklat */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 40px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    background-color: #803D3B; /* Warna coklat */
+    color: #FFF5E1; /* Warna cream */
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6F4E37; /* Warna coklat yang lebih terang */
+}
+
+
+
+
+
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.notification.error {
+    background-color: #f44336;
+}
+/* CSS untuk tombol delete */
+.delete-btn {
+    background-color: #ff4d4d; /* Warna merah */
+    color: #fff; /* Warna teks putih */
+    border: none; /* Hapus border */
+    padding: 8px 16px; /* Padding atas dan bawah 8px, kiri dan kanan 16px */
+    border-radius: 5px; /* Rounding border */
+    cursor: pointer; /* Pointer mouse */
+    transition: background-color 0.3s ease; /* Transisi warna latar belakang */
+}
+
+.delete-btn:hover {
+    background-color: #ff6666; /* Warna latar belakang merah yang lebih terang saat hover */
+}
+
+
+footer {
+    background: #803D3B; /* Warna coklat */
+    color: #FFF5E1; /* Warna cream */
+    text-align: center;
+    position: relative; /* Change position to relative */
+    margin-top: 30px;
+
+
+
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Jarak antara tabel dengan tombol "Pesanan Dilanjutkan" */
+}
+
+table, th, td {
+    border: 1px solid #ddd; /* Garis tepi untuk seluruh tabel, header, dan sel data */
+    padding: 8px; /* Ruang dalam sel */
+    text-align: left; /* Teks di dalam sel rata kiri */
+}
+
+th {
+    background-color: #f2f2f2; /* Warna latar belakang untuk baris header */
+}
+
+/* Mengatur lebar kolom "No" pada tabel */
+th:first-child,
+td:first-child {
+    width: 5%;
+    text-align: center; /* Teks pada kolom "No" rata tengah */
+}
+
+/* Mengatur lebar kolom "Nama Produk" pada tabel */
+th:nth-child(2),
+td:nth-child(2) {
+    width: 60%;
+}
+
+/* Mengatur lebar kolom "Harga" pada tabel */
+th:last-child,
+td:last-child {
+    width: 35%;
+    text-align: right; /* Teks pada kolom "Harga" rata kanan */
+}
+
+.container {
+    text-align: center; /* Mengatur konten menjadi rata tengah */
+}
+
+.wa button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.wa button:hover {
+    background-color: #45a049; /* Darker green */
+}
+.keterangan {
+    background-color: #FFF7EE; /* Warna latar belakang */
+    padding: 10px; /* Ruang padding di sekitar teks */
+    border-radius: 5px; /* Sudut border */
+}
+
+.keterangan p {
+    margin: 0; /* Menghilangkan margin bawaan */
+}
+
+
+
+
+/* Styling untuk form delete */
+form[name="delete"] {
+    position: absolute; /* Tombol delete akan berposisi absolut */
+    bottom: 0; /* Membuat tombol delete berada di bagian bawah halaman */
+    left: 0; /* Membuat tombol delete berada di sebelah kiri */
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+/* Styling untuk tombol di dalam form_delete */
+form[name="delete"] button {
+    padding: 5px 10px;
+    background-color: #803D3B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+  
+}
+
+/* Styling untuk tombol edit */
+.edit-button {
+    position: absolute; /* Tombol edit akan berposisi absolut */
+    bottom: 0; /* Membuat tombol edit berada di bagian bawah halaman */
+    right: 0; /* Membuat tombol edit berada di sebelah kanan */
+    /* CSS lainnya sesuai dengan yang Anda definisikan sebelumnya */
+    background-color: #803D3B;
+    color: #FFFFFF !important;
+    text-align: center;
+    line-height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+   
+    transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+    background-color: #A04D4B;
+}
+.tambah_data  {
+    position:fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #803D3B;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.tambah_data:hover {
+    background-color: #A04D4B;
+}
+
+/* Styling untuk container tombol */
+.button-container {
+    position: relative; /* Elemen induk memiliki posisi relatif */
+    min-height: 100vh; /* Menetapkan tinggi minimal elemen induk agar tombol bisa berada di bawah halaman */
+}
+
+.update {
+    background-color: #FFF5E1; /* Warna latar belakang */
+    color: #803D3B; /* Warna teks */
+    padding: 20px; /* Padding */
+    border-radius: 5px; /* Sudut melengkung */
+    margin: 20px auto; /* Margin atas-bawah 20px, otomatis kiri-kanan */
+    width: 80%; /* Lebar 80% dari parent */
+    margin-bottom: 40px;
+    max-width: 800px; /* Lebar maksimum 800px */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Bayangan kotak untuk efek elevasi */
+    ;
+}
+.update h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color:#803D3B;
+}
+
+.update .form-group {
+    margin-bottom: 20px;
+}
+
+.update label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.update input[type="text"],
+.update input[type="number"],
+.update textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.update textarea {
+    height: 100px;
+}
+
+.update button {
+    background-color: #803D3B; /* Warna latar coklat */
+    color: white; /* Warna teks putih */
+    padding: 10px 20px; /* Padding dalam button */
+    border: none; /* Menghilangkan border */
+    border-radius: 5px; /* Sudut melengkung */
+    cursor: pointer; /* Pointer cursor saat hover */
+    width: 150px; /* Lebar tetap untuk button */
+    display: block; /* Mengatur display menjadi block */
+    margin: 20px auto 0; /* Margin atas, otomatis kiri-kanan, tanpa margin bawah */
+}
+
+.update button:hover {
+    background-color: #A04D4B; /* Warna latar saat hover */
+}
+
+.update a {
+    background-color: #803D3B; /* Warna latar putih */
+    color: #ffffff; /* Warna teks coklat */
+    text-decoration: none; /* Menghilangkan underline */
+    padding: 10px 20px; /* Padding dalam link */
+    border-radius: 5px; /* Sudut melengkung */
+    display: inline-block; /* Mengatur display menjadi inline-block */
+    margin-top: 20px; /* Jarak atas */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transisi halus untuk background dan color */
+}
+
+.update a:hover {
+    background-color: #A04D4B; /* Warna latar saat hover */
+    color: white; /* Warna teks saat hover */
+}
+
+.create {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.create-form-container {
+    background-color: #FFF5E1;
+    color:#803D3B ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+.create-form-container h4 {
+    margin-bottom: 20px;
+    color:#803D3B ;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.form-group input[type="file"] {
+    padding: 3px;
+}
+
+button[type="submit"] {
+    background-color: #803D3B;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 0 auto;
+}
+
+button[type="submit"]:hover {
+    background-color: #A04D4B;
+}
+
+.nothave {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nothave a {
+    color: #803D3B;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nothave a:hover {
+    color: #A04D4B;
+}
+
+.loginadmin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
